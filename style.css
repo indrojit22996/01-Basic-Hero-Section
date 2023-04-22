@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+body {
+  background-image: url("Assate/bg.png");
+  height: 90vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+}
+.manu {
+  display: flex;
+  align-items: center;
+}
+.manu-item {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 38px;
+}
+.logo {
+  margin-left: 10%;
+}
+.home {
+  margin-left: 158px;
+}
+.btn {
+  margin-right: 48px;
+  padding: 10px 30px;
+  background-color: #ae3ec9;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.heading {
+  color: #ffffff;
+  font-size: 68px;
+  text-align: center;
+  margin-top: 10%;
+}
+.para {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 1%;
+  font-weight: 800;
+}
+.btn-main {
+  padding: 10px 30px;
+  background-color: #ae3ec9;
+  border-radius: 5px;
+  color: #ffffff;
+  font-weight: 900;
+  font-size: 18px;
+  border: none;
+  margin-left: 42%;
+  margin-top: 3%;
+}
